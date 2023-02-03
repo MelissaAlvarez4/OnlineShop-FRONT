@@ -1,0 +1,8 @@
+/** CUSTOM PROPERTIES**/
+@use './variables' as v;
+
+$blue: v.$main-color;
+$font-family-base: v.$font-family;
+$link-decoration: none;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,48 @@
+@use './variables' as v;
+
+@keyframes border {
+    from {
+        border: solid 100px v.$main-color;
+    }
+    to {
+        border: solid 0px v.$main-color;
+    }
+
+}
+
+@keyframes down {
+    from {
+        transform: translateY(-150px)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes colorS {
+    from {
+        color: white;
+    }
+    to {
+        color: v.$main-color;
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(50%, 50%);
+    }
+    to {
+        transform: scale(100%, 100%);
+    }
+}

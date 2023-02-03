@@ -1,0 +1,23 @@
+/****** GLOBAL CONFIG****/
+@forward './animations';
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    animation: 1s show forwards;
+}
+
+h1, 
+h2, 
+h3 {
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+}
